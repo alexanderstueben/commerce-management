@@ -1,15 +1,15 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Article } from '../../types/article';
+import { Item } from '../../types/item';
 
 @Injectable({
   providedIn: 'root'
 })
-export class ArticleService {
+export class ItemsService {
 
   constructor(private http: HttpClient) { }
 
-  getArticles() {
-    return this.http.get<Article[]>('http://localhost:3000/articles');
+  getItems() {
+    return this.http.get<Item[]>('http://localhost:3000/items');
   }
 }

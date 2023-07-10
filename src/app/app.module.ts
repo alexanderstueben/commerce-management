@@ -7,16 +7,17 @@ import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { TableModule } from 'primeng/table';
 import { TagModule } from 'primeng/tag';
+import { ToastModule } from 'primeng/toast';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StockComponent } from './views/stock/stock.component';
+import { ItemsComponent } from './views/items/items.component';
 import { HomeComponent } from './views/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StockComponent,
+    ItemsComponent,
     HomeComponent
   ],
   imports: [
@@ -26,6 +27,7 @@ import { HomeComponent } from './views/home/home.component';
     HttpClientModule,
     ButtonModule,
     TableModule,
+    ToastModule,
     TagModule,
     InputTextModule,
     FormsModule

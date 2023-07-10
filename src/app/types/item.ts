@@ -1,4 +1,4 @@
-export type Article = {
+export type Item = {
   id: number;
   name: string;
   brand: string;
