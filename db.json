@@ -1,0 +1,31 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "name": "Monster Energy Monarch",
+      "brand": "Monster Energy",
+      "ean": 506075121393,
+      "vk": 2.50,
+      "ek": 1.09,
+      "categoryId": 1,
+      "stock": 10
+    },
+    {
+      "id": 2,
+      "name": "Monster Energy Hamilton",
+      "brand": "Monster Energy",
+      "ean": 506075121393,
+      "vk": 2.50,
+      "ek": 1.09,
+      "categoryId": 1,
+      "stock": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Getränke Einweg",
+      "tax": 19
+    }
+  ]
+}
